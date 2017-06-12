@@ -120,6 +120,7 @@
     <Content Include="host.json" />
     <None Include="Properties\PublishProfiles\fn-demo - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\fn-demo - Web Deploy.pubxml" />
+    <Content Include="swagger.yaml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
