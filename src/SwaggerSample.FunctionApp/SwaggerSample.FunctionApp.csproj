@@ -118,9 +118,10 @@
     <Content Include="GetProductHttpTrigger\function.json" />
     <Content Include="appsettings.json" />
     <Content Include="host.json" />
+    <Content Include="ls.pubignore.wpp.targets" />
     <None Include="Properties\PublishProfiles\fn-demo - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\fn-demo - Web Deploy.pubxml" />
-    <Content Include="swagger.yaml" />
+    <Content Include="publish.ignore" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -129,6 +130,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="swagger.yaml" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
