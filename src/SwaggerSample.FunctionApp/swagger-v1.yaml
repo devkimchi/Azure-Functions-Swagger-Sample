@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: xxxx.azurewebsites.net
-  version: 1.0.0
+  version: v1
 host: xxxx.azurewebsites.net
 basePath: /
 schemes:

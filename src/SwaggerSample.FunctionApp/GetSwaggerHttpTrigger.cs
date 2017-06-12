@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Net;
 using System.Net.Http;
 using System.Net.Http.Formatting;
@@ -27,7 +28,8 @@ namespace SwaggerSample.FunctionApp
         /// <returns>Returns the <see cref="HttpResponseMessage"/> instance.</returns>
         public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, string version, TraceWriter log)
         {
-            var filepath = $"swagger-{version}.yaml";
+            var wwwroot = Environment.GetEnvironmentVariable("WEBROOT_PATH");
+            var filepath = $"{wwwroot}\\swagger-{version}.yaml";
             if (!File.Exists(filepath))
             {
                 return req.CreateResponse(HttpStatusCode.NotFound);
