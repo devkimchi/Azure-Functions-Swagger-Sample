@@ -1,0 +1,24 @@
+﻿{
+  "disabled": false,
+
+  "scriptFile": "..\\bin\\SwaggerSample.FunctionApp.dll",
+  "entryPoint": "SwaggerSample.FunctionApp.CreateProductHttpTrigger.Run",
+
+  "bindings": [
+    {
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in",
+      "route": "products",
+      "authLevel": "function",
+      "methods": [
+        "post"
+      ]
+    },
+    {
+      "name": "return",
+      "type": "http",
+      "direction": "out"
+    }
+  ]
+}
