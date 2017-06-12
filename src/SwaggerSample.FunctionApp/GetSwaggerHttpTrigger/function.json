@@ -1,0 +1,24 @@
+﻿{
+  "disabled": false,
+
+  "scriptFile": "..\\bin\\SwaggerSample.FunctionApp.dll",
+  "entryPoint": "SwaggerSample.FunctionApp.GetSwaggerHttpTrigger.Run",
+
+  "bindings": [
+    {
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in",
+      "route": "swagger/{version}",
+      "authLevel": "function",
+      "methods": [
+        "get"
+      ]
+    },
+    {
+      "name": "return",
+      "type": "http",
+      "direction": "out"
+    }
+  ]
+}
