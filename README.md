@@ -11,4 +11,4 @@ This provides a sample codes how to integrate Swagger (OPen API) definitions wit
 
 ### English ###
 
-* Azure Functions with Swagger
+* [Azure Functions with Swagger](https://blog.kloud.com.au/2017/06/13/azure-functions-with-swagger/)
