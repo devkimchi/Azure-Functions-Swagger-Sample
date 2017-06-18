@@ -1,6 +1,6 @@
 # Azure Functions Swagger Sample #
 
-This provides a sample codes how to integrate Swagger (OPen API) definitions with Azure Functions.
+This provides a sample codes how to integrate Swagger (Open API) definitions with Azure Functions.
 
 
 ## More Readings ##
